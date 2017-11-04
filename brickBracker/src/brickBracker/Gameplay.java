@@ -10,13 +10,17 @@ import javax.swing.JPanel;
 
 public class Gameplay extends JPanel implements KeyListener, ActionListener{
 	
+	//Is the game on
 	private boolean play = false;
+	//Current player score
 	private int score = 0;
+	//Total bricks left in the game
 	private int totalBricks = 0; 
-	
-	private Timer time; 
+	//Timer
+	private Timer time;
+	//Delay for player to react
 	private int delay = 8;
-	
+	//Players coordinate 
 	private int playerX = 310;
 	
 	private int ballPosX = 120;
