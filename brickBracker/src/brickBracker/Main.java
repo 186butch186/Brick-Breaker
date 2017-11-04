@@ -7,6 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//The new object
 		JFrame obj = new JFrame();
 		Gameplay Gameplay = new Gameplay();
 		obj.setBounds(10, 10, 700, 600);
